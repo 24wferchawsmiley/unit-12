@@ -21,7 +21,7 @@ function run() {
   compareNum();
 }
 function randomNum() {
-  let ran = Math.floor(Math.random() * 10) +1;
+  let ran = Math.floor(Math.random() * 100) +1;
   let x = document.getElementById("random");
   x.innerHTML = ran;
   x.style.backgroundColor = "#391F57";
@@ -69,6 +69,7 @@ function compareNum() {
     z.style.backgroundColor = "#14EB00";
     z.style.padding = "20px";
     z.style.textAlign = "center";
+    z.style.width = "100%";
     
     c.innerHTML = "You have tried " + counter + " times to get it right!";
     c.style.color = "white";
@@ -85,4 +86,3 @@ function compareNum() {
 function resetInput() {
   document.getElementById("inputBox").value = "";
 }
- 

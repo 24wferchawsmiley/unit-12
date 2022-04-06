@@ -3,76 +3,80 @@
 
 /* default to border-box */
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  /* adjust typography defaults */
-  body {
-    margin: 1rem;
-    font-family: sans-serif;
-    line-height: 1.5;
-  }
-  
-  /* images and videos max out at full width */
-  img,
-  video {
-    height: auto;
-    max-width: 100%;
-  }
-  
-  
-  /* Alignment Classes Start */
-  
-  .center {
-    text-align: center;
-  }
-  
-  /* Alignment Classes End */
-  
-  
-  
-  /* InputBox Start */
-  
-  #inputBox {
-    font-size: 22px;
-    text-align: center;
-    border: 3px #391F57 solid;
-    border-radius: 10px;
-  }
-  
-  #inputBox:hover {
-    border: 3px #EBCC01 solid;
-  }
-  
-  .inputNumberBox {
-    display: flex;
-    justify-content: center;
-  }
-  /* InputBox End */
-  
-  
-  
-  /* Button Start */
-  
-  
-  #button {
-    margin-left: 20px;
-    background: #391F57;
-    color: white;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  #button:hover {
-    background: #EBCC01;
-    color: black;
-  }
-  
-  
-  /* Button End */
-  
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: 'Permanent Marker', cursive;
+  line-height: 1.5;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+
+/* Alignment Classes Start */
+
+.center {
+  text-align: center;
+}
+
+.objectCenter {
+  display: flex;
+  justify-content: center;
+}
+
+/* Alignment Classes End */
+
+
+
+/* InputBox Start */
+
+#inputBox {
+  font-size: 22px;
+  text-align: center;
+  border: 3px #391F57 solid;
+  border-radius: 10px;
+}
+
+#inputBox:hover {
+  border: 3px #EBCC01 solid;
+}
+
+.inputNumberBox {
+  display: flex;
+  justify-content: center;
+}
+/* InputBox End */
+
+
+
+/* Button Start */
+
+
+#button {
+  margin-left: 20px;
+  background: #391F57;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#button:hover {
+  background: #EBCC01;
+  color: black;
+}
+
+
+/* Button End */
