@@ -21,7 +21,7 @@ function run() {
   compareNum();
 }
 function randomNum() {
-  let ran = Math.floor(Math.random() * 100) +1;
+  let ran = Math.floor(Math.random() * 10000000) +1;
   let x = document.getElementById("random");
   x.innerHTML = ran;
   x.style.backgroundColor = "#391F57";
